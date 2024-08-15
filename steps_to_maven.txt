@@ -1,0 +1,22 @@
+[Run the following command for creating basic template]
+mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4
+
+[Enter the following values]
+Group: com.example
+Artifact: demo
+Name: demo
+Description:kjnkj
+Package name: com.example.demo
+
+[Do this in pom.xml]
+- Remove tags <plugin_management>
+- Add <parent> tag for spring-boot-starter-parent
+- Create src/resources/application.properties
+- In the plugins add the maven-compiler and maven-jar plugins
+- Add main class location in maven-jar plugins 
+- In the executions tab mention 'repackage' goals and in configuration 'springboot' classifier and 'main-class' location
+
+[Run ]
+mvn clean package
+mvn package 
+java -jar target/${jar_file_location} 
