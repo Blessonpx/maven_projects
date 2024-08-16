@@ -1,1 +1,4 @@
 parallelInject/App.class
+parallelInject/WorkerThread.class
+parallelInject/MyService.class
+parallelInject/SharedResource.class
