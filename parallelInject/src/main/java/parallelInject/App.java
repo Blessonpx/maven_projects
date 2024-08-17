@@ -9,7 +9,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.beans.factory.annotation.Autowired;
 import parallelInject.MyService;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 @SpringBootApplication
+@EnableJpaRepositories(basePackages = "parallelInject")
+@EntityScan(basePackages = "parallelInject")
 public class App implements CommandLineRunner 
 {
     @Autowired
@@ -26,6 +30,10 @@ public class App implements CommandLineRunner
         // Once done, exit the 
 		System.out.println(service.getTest());
 		service.runParallelThreads();
+        System.out.println("Get the max Customer Id");
+        System.out.println(service.getMaxCustomerId());
+        System.out.println("Get the Procedure Call Output");
+        System.out.println(service.getParallelProcValue());
         System.exit(0);
     }
 }

@@ -1,4 +1,8 @@
 parallelInject/App.class
 parallelInject/WorkerThread.class
 parallelInject/MyService.class
+parallelInject/CLMEERealTimeRepository.class
+parallelInject/CLMEventExecution_RealTime.class
+parallelInject/CustomerEntity.class
+parallelInject/CustomerMaxIdRepo.class
 parallelInject/SharedResource.class

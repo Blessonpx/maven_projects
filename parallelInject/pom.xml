@@ -45,13 +45,39 @@
         <artifactId>mysql-connector-java</artifactId>
         <version>5.1.49</version>
 </dependency>
-
-    <!-- MariaDB JDBC Driver for Java 7 -->
 <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+<!-- <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
+    <exclusions>
+        <exclusion>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency> -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>5.0.12.Final</version> <!-- Compatible with Spring Boot 1.5.x -->
+</dependency>
+<!-- <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jdbc</artifactId>
+</dependency> -->
+<!-- <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>4.3.11.Final</version>
+</dependency> -->
+<!-- <dependency>
         <groupId>org.mariadb.jdbc</groupId>
         <artifactId>mariadb-java-client</artifactId>
         <version>1.7.2</version>
-</dependency>
+</dependency> -->
 </dependencies>
 
   <build>
