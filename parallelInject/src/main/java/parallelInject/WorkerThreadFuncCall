@@ -1,0 +1,20 @@
+package parallelInject;
+
+import parallelInject.FunctionCallResource;
+import org.springframework.stereotype.Component;
+
+
+@Component
+public class WorkerThreadFuncCall implements Runnable {
+    private FunctionCallResource funcCallResource;
+
+    public WorkerThread(FunctionCallResource funcCallResource) {
+        this.funcCallResource = funcCallResource;
+    }
+    
+    @Override
+    public void run() {
+        // Perform some work
+        funcCallResource.callParallelProc();
+    }
+}

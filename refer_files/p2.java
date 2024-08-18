@@ -24,6 +24,7 @@ public class SQLWorker implements Runnable {
      * @param pool Connection pool to use to run the query
      * @param event Event that will afterward contain the returned ResultSet
      * @param manager Waiting object to interrupt when finished
+     * 
      */
     public SQLWorker( SQLConnectionPool pool, SQLResultEvent event, SQLManager manager ) {
         m_pool = pool;

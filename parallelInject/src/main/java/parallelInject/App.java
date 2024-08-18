@@ -34,6 +34,8 @@ public class App implements CommandLineRunner
         System.out.println(service.getMaxCustomerId());
         System.out.println("Get the Procedure Call Output");
         System.out.println(service.getParallelProcValue());
+        System.out.println("Calling Parallel Proce method 2");
+        service.runFunctionCallResourceThreads();
         System.exit(0);
     }
 }
