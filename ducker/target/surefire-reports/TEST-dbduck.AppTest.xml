@@ -3,7 +3,7 @@
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/blesson/maven_projects/ducker/target/test-classes:/home/blesson/maven_projects/ducker/target/classes:/home/blesson/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/blesson/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/home/blesson/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
+    <property name="java.class.path" value="/home/blesson/maven_projects/ducker/target/test-classes:/home/blesson/maven_projects/ducker/target/classes:/home/blesson/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/blesson/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/home/blesson/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/blesson/.m2/repository/org/duckdb/duckdb_jdbc/1.1.1/duckdb_jdbc-1.1.1.jar:"/>
     <property name="java.vm.vendor" value="Debian"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://tracker.debian.org/openjdk-17"/>
@@ -12,9 +12,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/blesson/maven_projects/ducker/target/surefire/surefirebooter7272126057351303093.jar /home/blesson/maven_projects/ducker/target/surefire 2024-10-22T18-48-22_866-jvmRun1 surefire16844725953810317478tmp surefire_08886412733674164827tmp"/>
+    <property name="sun.java.command" value="/home/blesson/maven_projects/ducker/target/surefire/surefirebooter12671991182752945616.jar /home/blesson/maven_projects/ducker/target/surefire 2024-10-22T21-54-55_524-jvmRun1 surefire4147615220331013926tmp surefire_011219576034883913741tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/blesson/maven_projects/ducker/target/test-classes:/home/blesson/maven_projects/ducker/target/classes:/home/blesson/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/blesson/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/home/blesson/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
+    <property name="surefire.test.class.path" value="/home/blesson/maven_projects/ducker/target/test-classes:/home/blesson/maven_projects/ducker/target/classes:/home/blesson/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/blesson/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/home/blesson/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/blesson/.m2/repository/org/duckdb/duckdb_jdbc/1.1.1/duckdb_jdbc-1.1.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/blesson"/>
     <property name="user.language" value="en"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/blesson/maven_projects/ducker/target/surefire/surefirebooter7272126057351303093.jar"/>
+    <property name="surefire.real.class.path" value="/home/blesson/maven_projects/ducker/target/surefire/surefirebooter12671991182752945616.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+7-Debian-2deb12u1"/>
     <property name="user.name" value="blesson"/>
